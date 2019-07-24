@@ -1,0 +1,203 @@
+<div class="page">
+  <h2>Skin of a Birch <em>2019</em></h2>
+  <p>Installation, variable size</p>
+  <br />
+  <img
+    src="/assets/images/skin-of-a-birch/1.jpg"
+    (load)="imageLoaded($event)"
+    class="full"
+  />
+  <p>
+    Die Installation bietet inmitten des turbulenten Ausstellungs-Geschehens
+    einen persönlichen Begegnungsort: Man kann sich auf die Sitzkissen oder auf
+    dem Teppich setzen, im Zentrum der Installation liegt auf einem in Holz
+    gefassten Glaskasten eine Spieluhr auf einem Birkenstamm. Die Spieluhr gibt
+    die Komposition einer historischen Birkenrinde wieder. Die visuellen
+    Streifen auf der hellen Rinde wurden gescannt und auf einen 3D Zylinder
+    gelegt, ihre Haptik verstärkt, an eine Spieluhr angepasst und in Bronze
+    gedruckt und ist dadurch nun hörbar.
+  </p>
+
+  <p>
+    Ein gerahmter Spiegel bietet Einblick in den Klangkörper, zu einer weiteren
+    kleineren Spieluhr mit selbiger Komposition. Daneben befindet sich eine mit
+    Flechten verzierte, beschriebene Birkenrinde. Dieses original gerahmte
+    Geschenk eröffnet einen Einblick in die Vergangenheit der Birke und die
+    meines Urgroßvaters.
+  </p>
+  <p>
+    Auf einem Brett an der Wand befinden sich 4 mundgeblasene Glasobjekte, 2
+    Gläser und 2 Flaschen. Die Form dieser Objekte macht die Prägung der
+    Birkenrinde von 1915 - nach innen (inhale) oder nach außen (exhale) -
+    erfahrbar.
+  </p>
+  <p>
+    An den Wänden hängen Birkenwedel (Russische Saunazeremonie: Banja) und ein
+    Birkenreißigbesen, mit dem täglich der Ritualort, die Installation gereinigt
+    wird (Referenz zum Brauchtum der materiellen und energetischen Reinigung bei
+    einigen Heidnischen Ritualen).
+  </p>
+  <p>
+    Alle Bestandteile der Installation werden für die tägliche rituelle
+    Vorführung um 15.00 Uhr genutzt. Die Vorführung wird begleitet durch die
+    Verköstigung von Birkensaft, Birkenwein, Birkenwodka, Birkenkaltauszug oder
+    durch eine Salbung mit Birkenöl.
+  </p>
+  <p>
+    Die zugehörige Begleitbroschüre enthält Informationen über die
+    Klangsignatur, den Programmcode des Spieluhrzylinders und ein Ausschnitt aus
+    einem vererbten Brief (in dem die begleitenden Klänge erwähnt werden) so wie
+    eine vergrößerte Kopie des Originals “Maientage im Priesterwald, 3.Mai
+    1915”.
+  </p>
+  <p>
+    Einblicke in die Themen der einzelnen Performance Tage: Die ältesten
+    Dokumente aus Birkenhaut als Informationsträger stammen aus dem 11
+    Jahrhundert. Doch welche weiteren Informationen sind in einer Rinde
+    geborgen? Die Birke ist eine Pionierpflanze, die auch in Brachland wachsen
+    kann und dadurch folgenden Pflanzen den Wachstum ermöglicht. Sie wird in
+    zahlreichen Kulturkreisen als Symbol für Weiblichkeit und Fruchtbarkeit
+    gesehen und gilt auch als “Lichtbringerin” (Reflexion des Mondlichts). Sie
+    steht im Keltischen Baumalphabet an erster Stelle (Beth) und als Zeichen für
+    das erwachende Leben der Natur, nach dem vermeintlichen Tod des Winters.
+    Ihre pflanzlichen Bestandteile haben positive Einflüsse auf den menschlichen
+    Organismus, - vor allem die reinigenden Eigenschaften der Birke stehen
+    hierbei im Vordergrund.
+  </p>
+  <p>
+    Die Birke Brachte mich zur Ahnenforschung: Ottmar wurde 100 Jahre vor mir
+    geboren, die Überschneidungen dieser Daten evozierte das emotionale
+    Einfühlen. Ein Jahrhundert ist kleine lange Zeit oder doch? Militäraffinität
+    führte zu Traumatisierung bis hin zur Nazivergangenheit. Schockiert vor der
+    Menschenverachtung der eigenen Ahnen stellten sich für mich Fragen der
+    Epigenetik. Laut dieser vererben sich auch auf biologisch, molekularer Ebene
+    Umwelteinflüsse und Erlebnisse bis in die 4te Generation. Ein Thema das uns
+    alle betrifft: Was wurde uns mitgegeben und was möchten wir behalten?
+  </p>
+
+  <p>
+    Der Erste Weltkrieg ist auch bekannt als der akkustische Krieg. Durch die
+    Normierung der Waffen und der Munition wurde es möglich, an 100 Tage
+    durchgehend zu schießen und psychologischen Druck auszuüben. Das Gehör war
+    überlebenswichtig, um einzuschätzen welche Projektile abgefeuert wurden und
+    in welche Richtung sich diese bewegten. Das Gebiet in dem sich mein
+    Urgroßvater befand war dafür bekannt, dass die meisten nicht mehr als 30
+    Tage überlebten. Mein Urgroßvater wurde kurz nachdem er den Brief schrieb
+    für drei Jahre in französische Gefangenschaft genommen.
+  </p>
+
+  <app-masonry #performance appModalImages>
+    <div
+      #gridItem
+      class="grid-item"
+      appScrollTo
+      [ratio]="0.4"
+      (inViewport)="inViewportChange($event)"
+    >
+      <img
+        (load)="imageLoaded($event)"
+        src="/assets/images/skin-of-a-birch/birke/spieluhr.jpg"
+      />
+    </div>
+    <div
+      #gridItem
+      class="grid-item"
+      appScrollTo
+      [ratio]="0.4"
+      (inViewport)="inViewportChange($event)"
+    >
+      <img
+        (load)="imageLoaded($event)"
+        src="/assets/images/skin-of-a-birch/3.jpg"
+      />
+    </div>
+
+    <div
+      #gridItem
+      class="grid-item"
+      appScrollTo
+      [ratio]="0.4"
+      (inViewport)="inViewportChange($event)"
+    >
+      <img
+        (load)="imageLoaded($event)"
+        src="/assets/images/skin-of-a-birch/2.jpg"
+      />
+    </div>
+
+    <div
+      #gridItem
+      class="grid-item"
+      appScrollTo
+      [ratio]="0.4"
+      (inViewport)="inViewportChange($event)"
+    >
+      <img
+        (load)="imageLoaded($event)"
+        src="/assets/images/skin-of-a-birch/birke/gespraech.jpg"
+      />
+    </div>
+
+    <div
+      #gridItem
+      class="grid-item"
+      appScrollTo
+      [ratio]="0.4"
+      (inViewport)="inViewportChange($event)"
+    >
+      <img
+        (load)="imageLoaded($event)"
+        src="/assets/images/skin-of-a-birch/birke/installation.jpg"
+      />
+    </div>
+
+    <div
+      #gridItem
+      class="grid-item"
+      appScrollTo
+      [ratio]="0.4"
+      (inViewport)="inViewportChange($event)"
+    >
+      <img
+        (load)="imageLoaded($event)"
+        src="/assets/images/skin-of-a-birch/birke/wedel.jpg"
+      />
+    </div>
+    <div
+      #gridItem
+      class="grid-item"
+      appScrollTo
+      [ratio]="0.4"
+      (inViewport)="inViewportChange($event)"
+    >
+      <img
+        (load)="imageLoaded($event)"
+        src="/assets/images/skin-of-a-birch/birke/besucherin.jpg"
+      />
+    </div>
+    <div
+      #gridItem
+      class="grid-item"
+      appScrollTo
+      [ratio]="0.4"
+      (inViewport)="inViewportChange($event)"
+    >
+      <img
+        (load)="imageLoaded($event)"
+        src="/assets/images/skin-of-a-birch/birke/perform.jpg"
+      />
+    </div>
+    <div
+      #gridItem
+      class="grid-item"
+      appScrollTo
+      [ratio]="0.4"
+      (inViewport)="inViewportChange($event)"
+    >
+      <img
+        (load)="imageLoaded($event)"
+        src="/assets/images/skin-of-a-birch/birke/glass.jpg"
+      />
+    </div>
+  </app-masonry>
+</div>

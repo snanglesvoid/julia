@@ -1,0 +1,56 @@
+<div
+  class="toggle"
+  (click)="toggleNav()"
+  [class.open]="visibility === 'visible'"
+>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<br /><br />
+<ul [@toggle]="visibility">
+  <br />
+  <li>
+    <a (click)="toggleNav()" routerLink="/">
+      <app-text-flip text="Home"></app-text-flip>
+    </a>
+  </li>
+  <li>
+    <a (click)="toggleNav()" routerLink="/cv">
+      <app-text-flip text="Artist CV"></app-text-flip>
+    </a>
+  </li>
+  <!-- <li>
+    <a (click)="toggleNav()" routerLink="/contact">
+      <app-text-flip text="Contact"></app-text-flip>
+    </a>
+  </li> -->
+  <li>
+    <h3>selected works</h3>
+  </li>
+  <li>
+    <a (click)="toggleNav()" routerLink="/skin-of-a-birch">
+      <app-text-flip text="Skin of a Birch"></app-text-flip>
+    </a>
+  </li>
+  <li>
+    <a (click)="toggleNav()" routerLink="/clay-body">
+      <app-text-flip text="Clay Body"></app-text-flip>
+    </a>
+  </li>
+  <li>
+    <a (click)="toggleNav()" routerLink="/muttermilchseife">
+      <app-text-flip text="Muttermilchseife"></app-text-flip>
+    </a>
+  </li>
+  <li>
+    <a (click)="toggleNav()" routerLink="/paste-in-place">
+      <app-text-flip text="Paste in Place"></app-text-flip>
+    </a>
+  </li>
+  <li>
+    <a (click)="toggleNav()" routerLink="/chimera">
+      <app-text-flip text="Chimäre"></app-text-flip>
+    </a>
+  </li>
+</ul>
